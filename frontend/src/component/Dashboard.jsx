@@ -20,7 +20,7 @@ const Dashboard = () => {
   };
   useEffect(() => {
     fetch(
-      "https://www.googleapis.com/youtube/v3/search?key=AIzaSyAzJvGLZSS_aY0YCEYEIONwCGmT0iJz5Bo&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=10"
+      "https://www.googleapis.com/youtube/v3/search?key=AIzaSyAzJvGLZSS_aY0YCEYEIONwCGmT0iJz5Bo&channelId=UCiqsylWBHLh32nnMnBaiZRQ&part=snippet,id&order=date&maxResults=10"
     )
       .then((response)=> response.json())
       .then((data) => setYoutubeVideos(data.items || []))
