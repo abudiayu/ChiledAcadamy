@@ -1,0 +1,14 @@
+don't forget to take your Api adress
+API_KEY =______________________
+
+==============================================
+
+the youtube channelId list
+
+KidVideos = UCudZ1fVvCSPMoVcqa7kxgGw
+eshetu kides = UCiqsylWBHLh32nnMnBaiZRQ
+=====================================================
+the actual data from youtube data base.
+
+for KidVideos, = GET https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCudZ1fVvCSPMoVcqa7kxgGw&maxResults=5&order=date&key=[YOUR_API_KEY] HTTP/1.1
+for eshetu tube , = GET https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCiqsylWBHLh32nnMnBaiZRQ&maxResults=5&order=date&key=[YOUR_API_KEY] HTTP/1.1
