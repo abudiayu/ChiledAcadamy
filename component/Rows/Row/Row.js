@@ -8,7 +8,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   const [movies, setMovies] = useState([]);
   const [trailerUrl, setTrailerUrl] = useState("");
   const rowRef = useRef(null);
-
+console.log(tytyty)
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(
