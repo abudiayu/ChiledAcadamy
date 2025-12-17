@@ -1,0 +1,18 @@
+.banner {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+.banner_fadeBottom {
+  position: absolute;
+  bottom: 0;
+  height: 7rem;
+  width: 100%;
+  background: linear-gradient(180deg,
+      transparent,
+      rgba(20, 20, 20, 0.8),
+      #111);
+}
